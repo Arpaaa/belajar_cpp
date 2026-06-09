@@ -1,0 +1,30 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.obj
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CLion/CMake compilation outputs
+cmake-build-*/
+.cmake/
+
+# JetBrains IDE local settings
+.idea/
