@@ -94,5 +94,6 @@ add_executable(59_Ternary_Operator 59_Ternary_Operator/ternary_operator.cpp
         59_Ternary_Operator/ternary_conditional_void_expression.cpp)
 add_executable(60_comma_operator 60_comma_operator/comma_operator_1.cpp)
 add_executable(61_bitwise_operator 61_bitwise_operator/bitwise_operator_1.cpp
-        61_bitwise_operator/latihan_bitwise_ganjil_genap.cpp
-        61_bitwise_operator/latihan_bitwise_bit_masking.cpp)
+        61_bitwise_operator/bitwise_ganjil_genap.cpp
+        61_bitwise_operator/bitwise_bit_masking.cpp
+        61_bitwise_operator/bitwise_swap.cpp)
