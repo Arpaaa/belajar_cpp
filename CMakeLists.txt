@@ -17,7 +17,8 @@ add_executable(04_compiling_1 04_compiling/compiling_1.cpp 04_compiling/tambah.c
 add_executable(04_compiling_2 04_compiling/compiling_2.cpp)
 add_executable(04_prepro_1 04_compiling/preprocessing_1.cpp)
 add_executable(04_prepro_2 04_compiling/preproccessing_2.cpp)
-add_executable(05_printing_1 05_printing/printing_1.cpp)
+add_executable(05_printing_1 05_printing/printing_1.cpp
+        05_printing/coba_printing.cpp)
 add_executable(05_printing_2 05_printing/printing_2_buffer_flush.cpp)
 add_executable(06_variabel 06_variabel/variabel_1.cpp)
 add_executable(07_deklarasi 07_deklrasi/deklarasi_1.cpp)
@@ -44,7 +45,8 @@ add_executable(24_pengenalan_fungsi 24_pengenalan_fungsi/fungsi_1.cpp)
 add_executable(25_latihan_dadu 25_latihan_dadu/dadu.cpp
         25_latihan_dadu/random_number.cpp)
 add_executable(26_function_value_returning 26_function_value_returning/return_fungsi_1.cpp
-        26_function_value_returning/return_fungsi_2.cpp)
+        26_function_value_returning/return_fungsi_2.cpp
+        26_function_value_returning/fungsi_2.cpp)
 add_executable(27_function_void 27_function_void/fungsi_void.cpp
         27_function_void/fungsi_void.cpp)
 add_executable(28_latihan_fungsi 28_latihan_fungsi/keliling_persegi.cpp)
@@ -93,4 +95,5 @@ add_executable(59_Ternary_Operator 59_Ternary_Operator/ternary_operator.cpp
         59_Ternary_Operator/ternary_assignment.cpp
         59_Ternary_Operator/ternary_conditional_void_expression.cpp)
 add_executable(60_comma_operator 60_comma_operator/comma_operator_1.cpp)
-add_executable(61_bitwise_operator 61_bitwise_operator/bitwise_operator_1.cpp)
+add_executable(61_bitwise_operator 61_bitwise_operator/bitwise_operator_1.cpp
+        61_bitwise_operator/test.cpp)
