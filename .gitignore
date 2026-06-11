@@ -16,7 +16,10 @@
 *.la
 *.a
 *.lib
+
+# Non-source files
 *.p
+*.txt
 
 # Executables
 *.exe
