@@ -31,7 +31,7 @@ int main() {
 
     cout << "| - Bitwise OR" << endl;
     /// | = Bitwise OR
-    /// Menghasilkan jika SALAH SATU ATAU KEDUA bit yang dibandingkan bernilai 1
+    /// Menghasilkan 1 jika SALAH SATU ATAU KEDUA bit yang dibandingkan bernilai 1
     a = 6;
     b = 10;
 
