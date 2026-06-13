@@ -20,6 +20,8 @@
 # Non-source files
 *.p
 *.txt
+*.bin
+*.dat
 
 # Executables
 *.exe

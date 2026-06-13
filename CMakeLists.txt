@@ -12,7 +12,8 @@ add_executable(03_part_1 03_pendahuluan/part_1.cpp
         45_latihan_membuat_sort_algorithm/bubble_sort.cpp
         53_getLine_console_string/getLine_console_string.cpp
         55_nesting_struct/nesting_struct_1.cpp
-        56_union/union_1.cpp)
+        56_union/union_1.cpp
+        66_membaca_binary_file/membaca_binary_file.cpp)
 add_executable(04_compiling_1 04_compiling/compiling_1.cpp 04_compiling/tambah.cpp 04_compiling/kurung.h)
 add_executable(04_compiling_2 04_compiling/compiling_2.cpp)
 add_executable(04_prepro_1 04_compiling/preprocessing_1.cpp)
@@ -98,3 +99,16 @@ add_executable(61_bitwise_operator 61_bitwise_operator/bitwise_operator_1.cpp
         61_bitwise_operator/bitwise_bit_masking.cpp
         61_bitwise_operator/bitwise_swap.cpp
         61_bitwise_operator/bitwise_overflow_underflow.cpp)
+add_executable(62_casting_operator 62_casting_operator/casting_operator_1.cpp
+        62_casting_operator/static_cast.cpp)
+add_executable(63_output_file_stream 63_output_file_stream/ofstream_1.cpp
+        63_output_file_stream/ofstream_lanjutan.cpp
+        63_output_file_stream/ofstream_file_mode_flag.cpp
+        63_output_file_stream/pointer_position_ofstream.cpp)
+add_executable(64_input_file_stream 64_input_file_stream/ifstream_1.cpp
+        64_input_file_stream/ifstream_lanjutan.cpp)
+add_executable(65_menulis_binary_file 65_menulis_binary_file/menulis_binary_file.cpp)
+add_executable(66_membaca_binary_file 66_membaca_binary_file/membaca_binary_file.cpp)
+add_executable(67_latihan_io_external 67_latihan_io_external/latihan_io_binary_file.cpp
+        67_latihan_io_external/latihan_baca_io_binary_file.cpp)
+add_executable(68_latihan_project_crud 68_latihan_project_crud/main.cpp)
