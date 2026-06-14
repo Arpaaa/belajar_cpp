@@ -112,3 +112,9 @@ add_executable(66_membaca_binary_file 66_membaca_binary_file/membaca_binary_file
 add_executable(67_latihan_io_external 67_latihan_io_external/latihan_io_binary_file.cpp
         67_latihan_io_external/latihan_baca_io_binary_file.cpp)
 add_executable(68_latihan_project_crud 68_latihan_project_crud/main.cpp)
+add_executable(69_preprocessing_directive 69_preprocessing_directive/preprocessing_directive.cpp
+        69_preprocessing_directive/macro_define_undef.cpp
+        69_preprocessing_directive/preprocessing_if_else.cpp
+        69_preprocessing_directive/preprocessing_include.cpp
+        69_preprocessing_directive/mylib.h
+        69_preprocessing_directive/ifdef_ifndef_pragma.cpp)
