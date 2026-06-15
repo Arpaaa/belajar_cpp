@@ -118,3 +118,11 @@ add_executable(69_preprocessing_directive 69_preprocessing_directive/preprocessi
         69_preprocessing_directive/preprocessing_include.cpp
         69_preprocessing_directive/mylib.h
         69_preprocessing_directive/ifdef_ifndef_pragma.cpp)
+add_executable(70_namespace 70_namespace/namepace_1.cpp)
+add_executable(71_latihan_multifile 71_latihan_multifile/main.cpp
+        71_latihan_multifile/PesertaDidik.cpp
+        71_latihan_multifile/PesertaDidik.h
+        71_latihan_multifile/utils.cpp
+        71_latihan_multifile/utils.h)
+add_executable(72_type_def 72_type_def/typedef_1.cpp)
+add_executable(73_template_fungsi 73_template_fungsi/template_fungsi_1.cpp)
