@@ -62,6 +62,5 @@ int main() {
     // Output: 11111101
     cout << "Nilai g >> 1: " << static_cast<int>(h) << endl;
     /// Bit paling kiri akan diisi angka 1 bukan 0
-    ///
     return 0;
 }

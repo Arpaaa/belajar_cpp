@@ -57,7 +57,7 @@ void printMenu();
 
 int getOption();
 
-bool confirmation(const std::string &text);
+bool confirmation(const std::string &text, const bool &defaultValue);
 
 void checkAndCleanCin();
 
@@ -75,15 +75,13 @@ int main() {
     std::fstream file;
     file.open(DATABASE_PATH, std::ios::binary | std::ios::out | std::ios::in);
 
-    // TODO: Melakukan flush ketika handle telah selesai
-
     while (static_cast<Option>(userInput) != Option::EXIT) {
         switch (static_cast<Option>(userInput)) {
             case Option::SHOW:
                 handleShowData(file);
                 break;
             case Option::CREATE:
-                if (!confirmation("Do you want to continue to insert new data? (y/n): ")) break;
+                if (!confirmation("Do you want to continue to insert new data? (y/n): ", TODO)) break;
                 handleInsertData(file);
                 break;
             case Option::UPDATE:
@@ -97,7 +95,7 @@ int main() {
                 break;
         }
 
-        if (!confirmation("Do you want to continue CRUD action? (y/n): ")) return 0;
+        if (!confirmation("Do you want to continue CRUD action? (y/n): ", TODO)) return 0;
         userInput = getOption();
     }
 
@@ -177,7 +175,7 @@ void handleUpdateData(std::fstream &file) {
     std::cout << "Nama    : " << updatePesertaDidik.nama << std::endl;
     std::cout << "Jurusan : " << updatePesertaDidik.jurusan << std::endl;
 
-    if (!confirmation("Do you want to continue to update this data? (y/n): ")) return;
+    if (!confirmation("Do you want to continue to update this data? (y/n): ", TODO)) return;
 
     std::cout << "Please input new value: " << std::endl;
 
@@ -223,7 +221,7 @@ void handleDeleteData(std::fstream &file) {
     std::cout << "Nama    : " << dataToDelete.nama << std::endl;
     std::cout << "Jurusan : " << dataToDelete.jurusan << std::endl;
 
-    if (!confirmation("\nAre you sure to delete this data? (y/n): ")) {
+    if (!confirmation("\nAre you sure to delete this data? (y/n): ", TODO)) {
         std::cout << "Delete data was aborted" << std::endl;
         return;
     }
@@ -412,7 +410,7 @@ int getOption() {
     return userInput;
 }
 
-bool confirmation(const std::string &text) {
+bool confirmation(const std::string &text, const bool &defaultValue) {
     char input = 0;
 
     while (tolower(input) != 'n') {
