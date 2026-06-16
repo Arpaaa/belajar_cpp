@@ -126,3 +126,20 @@ add_executable(71_latihan_multifile 71_latihan_multifile/main.cpp
         71_latihan_multifile/utils.h)
 add_executable(72_type_def 72_type_def/typedef_1.cpp)
 add_executable(73_template_fungsi 73_template_fungsi/template_fungsi_1.cpp)
+add_executable(999_latihan_TOKI 999_latihan_TOKI/6_7_menutup_toko.cpp
+        999_latihan_TOKI/7_1_memborong_bebek.cpp
+        999_latihan_TOKI/7_2_perkenalan_fungsi.cpp
+        999_latihan_TOKI/7_4_parameter.cpp
+        999_latihan_TOKI/7_6_void_function.cpp
+        999_latihan_TOKI/7_8_member_function.cpp
+        999_latihan_TOKI/8_6_kalkulator_string.cpp
+        999_latihan_TOKI/9_4_hitung_vokal_rekursif.cpp
+        999_latihan_TOKI/9_5_jumlah_digit.cpp
+        999_latihan_TOKI/9_6_cek_polindrom.cpp
+        999_latihan_TOKI/9_7_konversi_biner.cpp
+        999_latihan_TOKI/10_2_compile_faktorial.cpp
+        999_latihan_TOKI/10_3_compile_faktorial_cin.cpp
+        999_latihan_TOKI/10_4_compile_hitung_vokal.cpp
+        999_latihan_TOKI/10_5_penjumlahan_N_bulat.cpp
+        999_latihan_TOKI/11_1_jumlah_bilangan.cpp)
+add_executable(998_Standard_Library_Tambahan 998_Standard_Library_Tambahan/01_stoi.cpp)
