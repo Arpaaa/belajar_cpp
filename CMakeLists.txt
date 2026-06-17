@@ -141,5 +141,14 @@ add_executable(999_latihan_TOKI 999_latihan_TOKI/6_7_menutup_toko.cpp
         999_latihan_TOKI/10_3_compile_faktorial_cin.cpp
         999_latihan_TOKI/10_4_compile_hitung_vokal.cpp
         999_latihan_TOKI/10_5_penjumlahan_N_bulat.cpp
-        999_latihan_TOKI/11_1_jumlah_bilangan.cpp)
+        999_latihan_TOKI/11_1_jumlah_seluruh_kecuali_i.cpp
+        999_latihan_TOKI/11_2_jumlah_seluruh_kecuali_i_2.cpp
+        999_latihan_TOKI/11_3_membariskan_bebek.cpp
+        999_latihan_TOKI/11_4_membariskan_bebek_2.cpp
+        999_latihan_TOKI/11_3_membasikan_bebek_3.cpp
+        999_latihan_TOKI/12_1_statistika_sederhana.cpp
+        999_latihan_TOKI/12_2_komposisi_fungsi.cpp
+        999_latihan_TOKI/12_3_mencari_pola__IV.cpp
+        999_latihan_TOKI/12_4_perkalian_matriks.cpp
+)
 add_executable(998_Standard_Library_Tambahan 998_Standard_Library_Tambahan/01_stoi.cpp)
