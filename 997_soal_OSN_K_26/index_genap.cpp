@@ -16,50 +16,50 @@
 using namespace std;
 
 /*
- * Soal 1. Apa kembalian dari fungsi(createArray(10))?
- * Soal 2. Apa kembalian dari fugnsi(createZeroArray(100))?
+ * Soal 1. Apa kembalian dari PECAH(BELAH1(10))?
+ * Soal 2. Apa kembalian dari PECAH(BELAH2(100))?
  */
 
-int fungsi(vector<int> input) {
-    if (input.size() == 0) return 0;
+int PECAH(vector<int> A) {
+    if (A.size() == 0) return 0;
 
-    vector<int> angkaSisa;
+    vector<int> C;
 
     int sum = 0;
-    for (int i = 0; i < input.size(); i++) {
+    for (int i = 0; i < A.size(); i++) {
         if (i % 2 == 0) {
-            sum += input[i];
+            sum += A[i];
             continue;
         }
-        angkaSisa.push_back(input[i]);
+        C.push_back(A[i]);
     }
 
-    return sum - fungsi(angkaSisa);
+    return sum - PECAH(C);
 }
 
-vector<int> createArray(int a) {
-    vector<int> hasil = {};
+vector<int> BELAH1(int N) {
+    vector<int> A = {};
 
-    for (int i = 1; i <= a; i++) {
-        hasil.push_back(i);
+    for (int i = 1; i <= N; i++) {
+        A.push_back(i);
     }
 
-    return hasil;
+    return A;
 }
 
-vector<int> createZeroArray(int a) {
-    vector<int> hasil = {};
+vector<int> BELAH2(int N) {
+    vector<int> B = {};
 
-    for (int i = 1; i <= a; i++) {
-        hasil.push_back(1);
+    for (int i = 1; i <= N; i++) {
+        B.push_back(1);
     }
 
-    return hasil;
+    return B;
 }
 
 int main() {
-    cout << fungsi(createArray(10)) << endl;
-    cout << fungsi(createZeroArray(100)) << endl;
+    cout << PECAH(BELAH1(10)) << endl;
+    cout << PECAH(BELAH2(100)) << endl;
 
     return 0;
 }
