@@ -150,6 +150,10 @@ add_executable(999_latihan_TOKI 999_latihan_TOKI/6_7_menutup_toko.cpp
         999_latihan_TOKI/12_2_komposisi_fungsi.cpp
         999_latihan_TOKI/12_3_mencari_pola__IV.cpp
         999_latihan_TOKI/12_4_perkalian_matriks.cpp
+        999_latihan_TOKI/12_5_teman_dekat.cpp
+        999_latihan_TOKI/12_6_pembuangan_string.cpp
+        999_latihan_TOKI/12_7_menggambar_pegunungan.cpp
+        999_latihan_TOKI/12_8_cek_bilangan_prima.cpp
 )
 add_executable(998_Standard_Library_Tambahan 998_Standard_Library_Tambahan/01_stoi.cpp)
 add_executable(997_soal_OSN_K_26 997_soal_OSN_K_26/index_genap.cpp
