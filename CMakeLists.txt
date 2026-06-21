@@ -156,6 +156,7 @@ add_executable(999_latihan_TOKI 999_latihan_TOKI/06_7_menutup_toko.cpp
         999_latihan_TOKI/12_8_cek_bilangan_prima.cpp
 )
 add_executable(998_Standard_Library_Tambahan 998_Standard_Library_Tambahan/01_stoi.cpp
-        998_Standard_Library_Tambahan/02_pair.cpp)
+        998_Standard_Library_Tambahan/02_pair.cpp
+        998_Standard_Library_Tambahan/03_tuple.cpp)
 add_executable(997_soal_OSN_K_26 997_soal_OSN_K_26/index_genap.cpp
         997_soal_OSN_K_26/tambah_nilai_index.cpp)
