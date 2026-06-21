@@ -154,6 +154,7 @@ add_executable(999_latihan_TOKI 999_latihan_TOKI/06_7_menutup_toko.cpp
         999_latihan_TOKI/12_6_pembuangan_string.cpp
         999_latihan_TOKI/12_7_menggambar_pegunungan.cpp
         999_latihan_TOKI/12_8_cek_bilangan_prima.cpp
+        999_latihan_TOKI/12_9_caesar_chiper.cpp
 )
 add_executable(998_Standard_Library_Tambahan 998_Standard_Library_Tambahan/01_stoi.cpp
         998_Standard_Library_Tambahan/02_pair.cpp
