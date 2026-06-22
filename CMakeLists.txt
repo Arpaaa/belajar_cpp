@@ -165,3 +165,7 @@ add_executable(1000_latihan_toki_CP "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM
         "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM KOMPETIITF/01_01_Lampu dan Tombol/lampu_dan_tombol_2.cpp"
         "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM KOMPETIITF/01_01_Lampu dan Tombol/lampu_dan_tombol_3.cpp"
         "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/01_factorial_modular.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/02_check_prime.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/03_check_prime_sqrt.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/04_prime_generation_sqrt.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/05_sieve_of_eratosthenes.cpp")
