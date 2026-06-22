@@ -164,3 +164,4 @@ add_executable(997_soal_OSN_K_26 997_soal_OSN_K_26/index_genap.cpp
 add_executable(1000_latihan_toki_CP "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM KOMPETIITF/01_01_Lampu dan Tombol/lampu_dan_tombol_1.cpp"
         "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM KOMPETIITF/01_01_Lampu dan Tombol/lampu_dan_tombol_2.cpp"
         "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM KOMPETIITF/01_01_Lampu dan Tombol/lampu_dan_tombol_3.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/01_factorial_modular.cpp"
