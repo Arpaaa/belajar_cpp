@@ -170,4 +170,8 @@ add_executable(1000_latihan_toki_CP "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM
         "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/04_prime_generation_sqrt.cpp"
         "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/05_sieve_of_eratosthenes.cpp"
         "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/06_algoritma_euclid_fpb.cpp"
-        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/07_subhimpunan_terbagi.cpp")
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/07_subhimpunan_terbagi.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/08_naive_pascal_triangle.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/09_pascal_triangle.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/10_pretty_pascal_triangle.cpp"
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/11_binomial.cpp")
