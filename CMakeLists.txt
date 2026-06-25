@@ -166,4 +166,7 @@ add_executable(1000_latihan_toki_CP "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM
         "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/08_naive_pascal_triangle.cpp"
         "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/09_pascal_triangle.cpp"
         "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/10_pretty_pascal_triangle.cpp"
-        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/11_binomial.cpp")
+        "999_latihan_TOKI/BAB 2 MATEMATIKA DISKRET DASAR/11_binomial.cpp"
+        "999_latihan_TOKI/BAB 3 PENCARIAN DAN PENGURUTAN/3_1_1_sequential_search.cpp"
+        "999_latihan_TOKI/BAB 3 PENCARIAN DAN PENGURUTAN/3_1_2_binary_search.cpp"
+        "999_latihan_TOKI/BAB 3 PENCARIAN DAN PENGURUTAN/utils.h")
