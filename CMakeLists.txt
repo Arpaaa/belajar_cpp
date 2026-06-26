@@ -151,6 +151,7 @@ add_executable(999_latihan_TOKI 999_latihan_TOKI/TLX_TOKI/06_7_menutup_toko.cpp
 add_executable(998_Standard_Library_Tambahan 998_Standard_Library_Tambahan/01_stoi.cpp
         998_Standard_Library_Tambahan/02_pair.cpp
         998_Standard_Library_Tambahan/03_tuple.cpp)
+        998_Standard_Library_Tambahan/04_iterator.cpp
 add_executable(997_soal_OSN_K_26 997_soal_OSN_K_26/index_genap.cpp
         997_soal_OSN_K_26/tambah_nilai_index.cpp)
 add_executable(1000_latihan_toki_CP "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM KOMPETIITF/01_01_Lampu dan Tombol/lampu_dan_tombol_1.cpp"
