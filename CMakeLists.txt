@@ -118,6 +118,7 @@ add_executable(71_latihan_multifile 71_latihan_multifile/main.cpp
         71_latihan_multifile/utils.h)
 add_executable(72_type_def 72_type_def/typedef_1.cpp)
 add_executable(73_template_fungsi 73_template_fungsi/template_fungsi_1.cpp)
+add_executable(74_lambda_function 74_lambda_function/lambda_function.cpp)
 add_executable(999_latihan_TOKI 999_latihan_TOKI/TLX_TOKI/06_7_menutup_toko.cpp
         999_latihan_TOKI/TLX_TOKI/07_1_memborong_bebek.cpp
         999_latihan_TOKI/TLX_TOKI/07_2_perkenalan_fungsi.cpp
@@ -150,8 +151,9 @@ add_executable(999_latihan_TOKI 999_latihan_TOKI/TLX_TOKI/06_7_menutup_toko.cpp
 )
 add_executable(998_Standard_Library_Tambahan 998_Standard_Library_Tambahan/01_stoi.cpp
         998_Standard_Library_Tambahan/02_pair.cpp
-        998_Standard_Library_Tambahan/03_tuple.cpp)
+        998_Standard_Library_Tambahan/03_tuple.cpp
         998_Standard_Library_Tambahan/04_iterator.cpp
+        998_Standard_Library_Tambahan/05_algorithm.cpp)
 add_executable(997_soal_OSN_K_26 997_soal_OSN_K_26/index_genap.cpp
         997_soal_OSN_K_26/tambah_nilai_index.cpp)
 add_executable(1000_latihan_toki_CP "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM KOMPETIITF/01_01_Lampu dan Tombol/lampu_dan_tombol_1.cpp"
