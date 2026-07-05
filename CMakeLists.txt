@@ -173,3 +173,5 @@ add_executable(1000_latihan_toki_CP "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM
         "999_latihan_TOKI/BAB 3 PENCARIAN DAN PENGURUTAN/3_1_1_sequential_search.cpp"
         "999_latihan_TOKI/BAB 3 PENCARIAN DAN PENGURUTAN/3_1_2_binary_search.cpp"
         "999_latihan_TOKI/BAB 3 PENCARIAN DAN PENGURUTAN/utils.h")
+        "999_latihan_TOKI/BAB 3 PENCARIAN DAN PENGURUTAN/utils.h"
+        "999_latihan_TOKI/BAB 3 PENCARIAN DAN PENGURUTAN/3_2_1_bubble_sort.cpp"
