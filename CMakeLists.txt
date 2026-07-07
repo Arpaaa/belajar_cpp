@@ -153,9 +153,9 @@ add_executable(998_Standard_Library_Tambahan 998_Standard_Library_Tambahan/01_st
         998_Standard_Library_Tambahan/02_pair.cpp
         998_Standard_Library_Tambahan/03_tuple.cpp
         998_Standard_Library_Tambahan/04_iterator.cpp
-        998_Standard_Library_Tambahan/05_algorithm.cpp)
         998_Standard_Library_Tambahan/05_algorithm.cpp
         998_Standard_Library_Tambahan/06_next_permutation.cpp
+        998_Standard_Library_Tambahan/07_ranges.cpp)
 add_executable(997_soal_OSN_K_26 997_soal_OSN_K_26/index_genap.cpp
         997_soal_OSN_K_26/tambah_nilai_index.cpp)
 add_executable(1000_latihan_toki_CP "999_latihan_TOKI/BAB 1 PERKENALAN PEMROGRAM KOMPETIITF/01_01_Lampu dan Tombol/lampu_dan_tombol_1.cpp"
