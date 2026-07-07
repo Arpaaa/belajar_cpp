@@ -12,7 +12,7 @@ int main() {
      * ================================
      */
     {
-        // any_of
+        // all_of
         std::vector<int> numbers = {2, 4, 6, 8, 10};
 
         bool is_all_even = std::all_of(numbers.begin(), numbers.end(), [](int el) {
