@@ -31,6 +31,10 @@
 # CLion/CMake compilation outputs
 cmake-build-*/
 .cmake/
+build/
+.cache
+.junie
+compile_commands.json
 
 # JetBrains IDE local settings
 .idea/
