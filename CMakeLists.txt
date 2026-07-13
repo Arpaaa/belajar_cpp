@@ -27,9 +27,7 @@ foreach(FILE_PATH ${ALL_CPP_FILES})
         string(REPLACE "\\" "_" TARGET_NAME ${TARGET_NAME})
         
         # 5. Daftarkan sebagai target executable yang bersih dari spasi
-        add_executable(${TARGET_NAME} ${FILE_PATH}
-                996_soal_OSN_P_24/02_A_string_cantik_OSN.cpp
-                "999_latihan_TOKI/BAB 5 DEVIDE AND CONQUER/01_merge_sort.cpp")
+        add_executable(${TARGET_NAME} ${FILE_PATH})
         
     endif()
 endforeach()
