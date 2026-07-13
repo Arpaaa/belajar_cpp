@@ -6,6 +6,8 @@
 
 using namespace std;
 
+using namespace std;
+
 // =========================================================================
 //                      PROTOTYPE / DEKLARASI (INTERFACE
 // =========================================================================
@@ -20,10 +22,11 @@ void printArray(const vector<T> &array, const string &delimiter = " ");
 
 template <typename T>
 void printArray(const vector<T> &array, const string &delimiter) {
+    cout << "[ ";
     for (auto el : array) {
         cout << el << delimiter;
     }
-    cout << endl;
+    cout << " ]" << endl;
 }
 
 #endif //BELAJAR_CPP_UTILS_H
