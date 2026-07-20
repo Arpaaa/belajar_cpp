@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Compile C++",
+      "command": "g++",
+      "args": [
+        "-O2",
+        "-std=c++17",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "group": "build"
+    },
+    {
+      "type": "shell",
+      "label": "Run Executable",
+      "command": "${fileDirname}/${fileBasenameNoExtension}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": ["Compile C++"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    }
+  ]
+}

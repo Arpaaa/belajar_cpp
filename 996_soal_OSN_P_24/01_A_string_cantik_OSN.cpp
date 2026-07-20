@@ -23,6 +23,8 @@ int main() {
         }
     }
 
+    for (auto d : dp) cout << " :: " << d << endl;
+
     if (max_len < 3) {
         cout << -1 << "\n";
     } else {
